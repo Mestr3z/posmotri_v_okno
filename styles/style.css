@@ -89,7 +89,6 @@ ol {
   flex-direction: column;
   gap: 30px;
   overflow-y: auto;
-  scrollbar-width: none;
 }
 
 .content__video-card {
