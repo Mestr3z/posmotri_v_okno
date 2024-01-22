@@ -88,6 +88,12 @@ ol {
   flex-direction: column;
   gap: 30px;
   overflow-y: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.content__list::-webkit-scrollbar{
+  display: none;
 }
 
 .content__video-card {
@@ -171,7 +177,7 @@ ol {
   border: 1px solid currentColor;
   color: #FFF;
   text-align: center;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -298,14 +304,12 @@ ol {
   margin-top: auto;
 }
 
-
-.search-form__label-hover:hover {
-  text-decoration: underline;
-}
-
 .search-form__submit-button:active {
   background-color: #545050;
 }
+
+
+
 
 .search-form__submit-button:hover {
   text-decoration: underline;
