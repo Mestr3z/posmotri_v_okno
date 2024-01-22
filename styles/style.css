@@ -58,6 +58,7 @@ ol {
 .content {
   display: flex;
   justify-content: center;
+  margin-left: 20px;
 }
 
 .title {
@@ -88,12 +89,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   overflow-y: auto;
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
-}
-
-.content__list::-webkit-scrollbar{
-  display: none;
+  scrollbar-width: none;
 }
 
 .content__video-card {
@@ -296,32 +292,10 @@ ol {
   font-size: 18px;
 }
 
-
-
 .search-form__submit-button {
   width: 194px;
   height: 34px;
   margin-top: auto;
-}
-
-.search-form__submit-button:active {
-  background-color: #545050;
-}
-
-
-
-
-.search-form__submit-button:hover {
-  text-decoration: underline;
-}
-
-.search-form__submit-button:focus {
-  outline: none;
-}
-
-.search-form__submit-button:focus-visible {
-  outline: 1px solid #FFF;
-  outline-offset: 2px;
 }
 
 .result__video-container {
